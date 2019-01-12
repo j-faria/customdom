@@ -145,7 +145,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2.25em;
+		font-size: 3.25em;
 		line-height: 1.35em;
 	}
 
@@ -2324,6 +2324,72 @@ input, select, textarea {
 				font-size: 4em;
 				line-height: 1em;
 			}
+
+	.icontop {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
+
+		.icontop:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: Flaticon;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.icontop > .label {
+			display: none;
+		}
+
+		.icontop.style1:before {
+			color: #c3e895;
+		}
+
+		.icontop.style2:before {
+			color: #8addaa;
+		}
+
+		.icontop.style3:before {
+			color: #6bd4c8;
+		}
+
+		.icontop.style4:before {
+			color: #57aed3;
+		}
+
+		.icontop.style5:before {
+			color: #4a87d3;
+		}
+
+		.icontop.style6:before {
+			color: #6b88e6;
+		}
+
+		.icontop.major {
+			text-decoration: none;
+			color: #fffff;
+			cursor: default;
+			display: inline-block;
+			margin: 0 0 1.5em 0;
+		}
+
+			.icontop.major:before {
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;
+				font-family: Flaticon;
+				font-style: normal;
+				font-weight: normal;
+				text-transform: none !important;
+			}
+
+			.icontop.major:before {
+				font-size: 4em;
+				line-height: 1em;
+			}
+
 
 /* Image */
 
